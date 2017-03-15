@@ -1,0 +1,93 @@
+
+/*Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+body {
+    background: #e2e2e2;
+}
+
+.grad {
+    background: #0fb8ad;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0fb8ad, #36b8e9);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0fb8ad, #36b8e9);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right#0fb8ad, #36b8e9);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0fb8ad, #36b8e9);
+    /* Standard syntax */
+    color: #323232;
+}
+
+header,
+footer,
+main,
+canvas {
+    display: block;
+}
+
+.fa-html5 {
+    color: #f16528;
+}
+
+.text {
+    font-size: 24px;
+    color: #323232;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    box-shadow: 10px 10px 20px grey;
+    color: #323232;
+    font-weight: 600;
+}
+
+.form-control {
+    background: #5CB85C;
+    font-size: 20px;
+    color: #323232;
+    margin-bottom: 45px;
+}
+
+#cfg {
+    display: none;
+}
+
+#alert {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: #e4566a
+}
+
+#canvas {
+    border: 3px solid #000;
+    margin: 0 auto;
+    border-radius: 22px;
+    background: #266fe2;
+    margin-bottom: 15px;
+}
+
+#play1 {
+    background: #fc5555;
+    border-radius: 20px;
+}
+
+#play2 {
+    background: #ffff40;
+    border-radius: 20px;
+}
+
+#userMsg {
+    border-radius: 20px;
+}
